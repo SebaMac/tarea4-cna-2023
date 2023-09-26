@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: SebaBlanco/labcna-chat-frontend
+          images: sebablanco/labcna-chat-frontend
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -80,7 +80,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: SebaBlanco/labcna-ws-service
+          images: sebablanco/labcna-ws-service
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
