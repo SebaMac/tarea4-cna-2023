@@ -51,7 +51,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: lnds/labcna-users-svc
+          images: SebaBlanco/labcna-users-svc
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -80,7 +80,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: lnds/labcna-ws-service
+          images: SebaBlanco/labcna-ws-service
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
