@@ -90,4 +90,4 @@ jobs:
           push: true
           tag_semver: true
           tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          #Fernando Sepúlveda - Juan Hernandez - Sebastián Blanco - Carlos Correa
